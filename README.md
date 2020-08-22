@@ -11,4 +11,4 @@ Does not used an effects, only visual parts.
 
 ### Use
 
-Just clone repo, open folder, run 'yarn' end run 'yarn start'. 😎
+Just clone repo, open folder, run 'yarn' and run 'yarn start'. 😎

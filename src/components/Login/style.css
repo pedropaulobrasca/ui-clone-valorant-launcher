@@ -1,0 +1,93 @@
+.login-main {
+  width: 392px;
+  height: 100%;
+}
+
+.login-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 40px
+}
+
+.logo {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  font-size: 24px;
+  margin: 40px 0;
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.input-text {
+  width: 284px;
+  height: 49px;
+  border-radius: 4px;
+  background-color: #ECECEC;
+  padding: 10px;
+}
+
+.input-text:focus {
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.label-input {
+  position: absolute;
+  font-weight: bold;
+  color: #A09D9A;
+  font-size: 10px;
+  z-index: 2;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+input:focus+label {
+  color: blue;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+#manter-login {
+  width: 17px;
+  height: 17px;
+}
+
+.checkbox label {
+  margin-left: 10px;
+}
+
+.create-account {
+  margin-top: 120px;
+}
+
+.create-account p {
+  cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #B2B3B5;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
